@@ -319,13 +319,20 @@ section {
     display: flex;
     flex-direction: column;
 }
-
 .produit-body h3 {
     color: var(--primary);
     margin-bottom: 10px;
     font-size: 1.4rem;
 }
 
+#produits .section-title p {
+    font-size: 25px;
+    color: #fff !important; /* Texte blanc pour contraster */
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    opacity: 1 !important; /* Pour annuler l’opacité 0.8 */
+    font-style: italic;
+  }
+  
 .produit-description {
     margin-bottom: 15px;
     flex-grow: 1;
